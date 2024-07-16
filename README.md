@@ -1,2 +1,5 @@
 # hugo-documentation-templater-sap-assets
-SAP specific assets for the Hugo-Documentation-Templater
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
+SAP specific assets for the [Hugo-Documentation-Templater](https://github.com/sapcc/hugo-documentation-templater)

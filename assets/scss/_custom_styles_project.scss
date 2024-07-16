@@ -1,0 +1,48 @@
+.nav-header {
+  .nav-header-buttons {
+    margin-left: auto;
+    padding-inline-start: 1rem;
+  }
+}
+
+// ccloud button
+.btn {
+  &.btn-ccloud {
+    background: var(--color-white) url("../images/ccloud_shape.svg") right
+      bottom no-repeat;
+    background-size: 36px;
+    color: #000;
+    border: none;
+    display: inline-block;
+    padding-right: 45px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// ccloud logo in footer
+footer {
+  .footer-hero-link {
+    color: var(--color-sap-gold);
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding-left: 1rem;
+  }
+
+  &.footer-landingpage {
+    .footer-ccloud-shape {
+      right: 0;
+    }
+  }
+
+  .footer-ccloud-shape {
+    position: absolute;
+    bottom: 0;
+    right: -15px;
+  }
+}
+
+@import "extend_custom_styles_project";
